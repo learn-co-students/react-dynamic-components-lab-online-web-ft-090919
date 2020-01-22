@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 class Comment extends Compontent {
-    this.props.commentText
-}
+render() {
+		return <div className="comment">{this.props.commentText}</div>;
+	}}
 export Comment
